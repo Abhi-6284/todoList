@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 20px;
+  background-color: #3f3f3f; 
+  background-image: url('https://img.freepik.com/free-photo/christmas-list_1303-4927.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.mainContainer{
+  width: 50rem;
+  margin: auto;
+  background-color: #1d1d1d;
+  padding: 2rem;
+  transition: all 500ms ease-in-out;
+}
+.mainContainer:hover{
+  background-color: #1d1d1d70;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* 
+ body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 3rem;
+  background-color: #2d2c2c;
+  color: #959090;
+  text-align: center;
+}
+
+#alert {
+  margin: 3rem auto;
+  padding: 1rem;
+  width: 15rem;
+  border: 2px solid #dd3562;
+  background-color: #776167;
+  color: white;
+}
+
+#alert button {
+  font: inherit;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  color: #540218;
+} */

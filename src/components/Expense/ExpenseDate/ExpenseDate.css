@@ -1,0 +1,28 @@
+.ecpenseItemDate {
+    background-color: #363636;
+    width: 90px;
+    border: 2px solid;
+    text-align: center;
+    padding: 10px 20px;
+    transition: background-color 500ms linear;
+}
+
+.ecpenseItemDate:hover {
+    cursor: pointer;
+    background-color: #40005d;
+}
+
+
+.expenseDateMonth{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.expenseDateYear{
+    font-size: .7rem;
+    font-weight: 500;
+}
+.expenseDateDay{
+    font-size: 1.5rem;
+    font-weight: bold;
+}

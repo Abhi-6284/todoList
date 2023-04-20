@@ -1,0 +1,45 @@
+.newExpense {
+    background-color: #e7b64c;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+}
+
+.newExpense:hover{
+    background-color: #e7b64c50;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.newExpense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    transition: border-radius 500ms ease-in-out;
+}
+
+.newExpense button:hover,
+.newExpense button:active {
+    border-radius: 20px;
+    background-color: #510674;
+    border-color: #510674;
+}
+
+.newExpense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.newExpense button.alternative:hover,
+.newExpense button.alternative:active {
+    background-color: #ddb3f8;
+}
